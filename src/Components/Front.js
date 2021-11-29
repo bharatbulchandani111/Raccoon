@@ -110,7 +110,7 @@ const Front = () => {
       <div class="sidebar">
         <ul>
         {
-          person?<li><span>Hello, {person}</span></li>:<spna></spna>
+          person?<li><span className="hello-per">Hello, {person}</span></li>:<spna></spna>
         }
         {person?<ul>
           <li>
