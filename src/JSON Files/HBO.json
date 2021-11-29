@@ -1,0 +1,107 @@
+[
+  {
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/Boogie/large.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/Boogie/small2.jpg",
+    "description": "A Coming-of-age story of Alfred Boogie Chin, a basketball phenom living in Queens, New York, who dreams of one day playing in the NBA. ",
+    "subTitle": "2021 • 1h 30m •  Drama,Sport",
+    "title": "Boogie",
+    "titleImg": "https://github.com/bharatbulchandani111/Practical/blob/main/films/HBO/Boogie/boogie.png",
+    "id":"36"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/small2.png",
+    "description": "The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against one another - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.",
+    "subTitle": "2021 • 1h 53m •  Adventure,Mystery",
+    "title": "Godzilla vs. Kong",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/godzilla.png",
+    "id":"37"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/large2.jpeg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/small2.jpg",
+    "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "subTitle": "2011-2019 • 53m •  Action,Adventure,Drama",
+    "title": "Game of Thrones",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/got.png",
+    "id":"38"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/black-swan/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/black-swan/small.jpg",
+    "description": "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's Swan Lake.",
+    "subTitle": "2010 • 1h 48m •  Drama,Mystery",
+    "title": "Black Swan",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/black-swan/black-swan.png",
+    "id":"39"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/In%20the%20heigths/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/In%20the%20heigths/small2.jpg",
+    "description": "A film version of the Broadway musical in which Usnavi, a sympathetic New York bodega owner, saves every penny every day as he imagines and sings about a better life.",
+    "subTitle": "2021 • 2h 23m •  Drama,Dance,Romance",
+    "title": "In the heigths",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/In%20the%20heigths/heigths.png",
+    "id":"40"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/land/large.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/land/small2.jpg",
+    "description": "A bereaved woman seeks out a new life, off the grid in Wyoming.",
+    "subTitle": "2021 • 1h 29m •  Drama,Adventure",
+    "title": "Land",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/land/land.png",
+    "id":"41"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/mortal/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/mortal/small2.jpg",
+    "description": "MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.",
+    "subTitle": "2021 • 1h 50m •  Ation,Adventure",
+    "title": "Mortal Kombat",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/mortal/mortal.png",
+    "id":"42"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/promising/large.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/promising/small2.jpg",
+    "description": "A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.",
+    "subTitle": "2020 • 1h 53m •  Drama,Mystery,Crime",
+    "title": "Promising Young Woman",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/promising/promising.png",
+    "id":"43"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/voyagers/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/voyagers/small2.jpg",
+    "description": "A crew of astronauts on a multi-generational mission descend into paranoia and madness, not knowing what is real or not.",
+    "subTitle": "2020 • 1h 48m •  Sci-Fi,Mystery",
+    "title": "Voyagers",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/black-swan/black-swan.png",
+    "id":"44"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/small2.jpg",
+  "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+  "subTitle": "2001 • 2h 4m • Animation,Family,Adventure",
+  "title": "Spirited Away",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/spirited-away.png",
+  "id":"20"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/small2.jpg",
+  "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+  "subTitle": "2009 • 1h 36m • Animation,Comedy,Adventure",
+  "title": "UP",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/up.png",
+  "id":"21"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/joker/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/joker/small2.jpg",
+  "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker..",
+  "subTitle": "2019 • 2h 6m • Drama,Crime",
+  "title": "Joker",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/blob/main/films/thriller/joker/joker.png",
+  "id":"22"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/kings-speech/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/kings-speech/small2.jpg",
+  "description": "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
+  "subTitle": "2010 • 1h 58m • Drama,History",
+  "title": "The King's Speech",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/kings-speech/the-kings-speech.png",
+  "id":"23"
+}
+]

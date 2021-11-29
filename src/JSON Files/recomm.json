@@ -1,0 +1,108 @@
+[
+  {
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/cobra/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/cobra/small2.jpg",
+    "description": "Decades after their 1984 All Valley Karate Tournament bout, a middle-aged Daniel LaRusso and Johnny Lawrence find themselves martial-arts rivals again.",
+    "subTitle": "2018 • 30m •  Drama,Mystery",
+    "title": "Cobra Kai",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/cobra/Cobra.png",
+    "id":"45"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/four%20some/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/four%20some/small2.jpg",
+    "description": "Andie is on a mission to shake her stigma with the help of her three best friends.",
+    "subTitle": "2016-2018 • 23m •  Comedy",
+    "title": "FourSome",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/four%20some/Foursome.png",
+    "id":"46"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/impulse/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/impulse/small2.jpg",
+    "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+    "subTitle": "2017 • 2h 21m •  Fantasy,Action,Sci-fi",
+    "title": "Wonder Woman",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/impulse/wonder.png",
+    "id":"47"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/mind%20field/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/mind%20field/small2.jpg",
+    "description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
+    "subTitle": "2016 • 2h 26m •  Drama,Mystery",
+    "title": "Fantastic Beast",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/mind%20field/fantastic.png",
+    "id":"48"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/origin/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/origin/small2.jpeg",
+    "description": "Devoted lifeguard Mitch Buchannon butts heads with a brash new recruit, as they uncover a criminal plot that threatens the future of the bay.",
+    "subTitle": "2017 • 1h 56m •  Crime,Action",
+    "title": "Baywatch",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/origin/baywatch.png",
+    "id":"49"
+},
+{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/prisoners/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/prisoners/small2.jpg",
+  "description": "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
+  "subTitle": "2013 • 2h 33m • Crime,Drama,Mystery",
+  "title": "Prisoners",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/prisoners/prisoners.png",
+  "id":"31"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/seven/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/seven/small2.jpg",
+  "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+  "subTitle": "1995 • 2h 7m • Crime,Drama,Mystery",
+  "title": "Se7en",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/seven/se7en.png",
+  "id":"32"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/zodiac/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/zodiac/small2.jpg",
+  "description": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
+  "subTitle": "2007 • 2h 37m • Crime,Drama,Mystery",
+  "title": "Zodiac",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/suspense/zodiac/zodiac.png",
+  "id":"33"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/small2.png",
+  "description": "The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against one another - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.",
+  "subTitle": "2021 • 1h 53m •  Adventure,Mystery",
+  "title": "Godzilla vs. Kong",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/godzilla/godzilla.png",
+  "id":"37"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/large2.jpeg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/small2.jpg",
+  "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+  "subTitle": "2011-2019 • 53m •  Action,Adventure,Drama",
+  "title": "Game of Thrones",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/HBO/GOT/got.png",
+  "id":"38"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/step%20up/large.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/step%20up/small2.jpg",
+    "description": "Based on the Step Up franchise, the series tells the story of the students and teachers at High Water Performing Arts School in Atlanta.",
+    "subTitle": "2018 • 50m •  Drama,Music",
+    "title": "Step Up:High Water",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/step%20up/step.png",
+    "id":"50"
+},{
+    "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/weird/large2.jpg",
+    "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/weird/small2.jpg",
+    "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.",
+    "subTitle": "2014 • 1h 54m •  Drama,Biography",
+    "title": "The Imitation Game",
+    "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/youtube/weird/imitation.png",
+    "id":"51"
+},{
+  "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/large2.jpg",
+  "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/small2.jpg",
+  "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+  "subTitle": "2001 • 2h 4m • Animation,Family,Adventure",
+  "title": "Spirited Away",
+  "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/spirited-away/spirited-away.png",
+  "id":"20"
+}
+]

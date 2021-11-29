@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+.cards{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    /* width: 100%; */
+    height: 318px;
+    margin: 10px 15px;
+    white-space: nowrap;
+    color: #E0E1E3;
+    /* background-color: gray; */
+    /* border: 2px solid black; */
+
+}
+.cards h1{
+    text-transform: uppercase;
+    margin: 6px 14px;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.cards::-webkit-scrollbar{
+    visibility: hidden;
+}
+.contain{
+    /* object-fit: contain; */
+    width: 300px;
+    height: 180px;
+    transition: transform 450ms;
+    border: 2px solid black;
+    margin:14px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E0E1E3;
+    border-radius: 15px;
+    /* word-wrap: break-word;
+    word-break: break-all; */
+    /* float: left; */
+}
+
+@media screen and (max-width:877px) {
+    .cards{
+        height: 250px;
+    }
+    .contain{
+        width: 200px;
+        height: 120px;
+
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .cards{
+        height: 200px;
+    }
+
+    .contain{
+        width:158px;
+        height: 90px;
+    }
+
+}
+
+
+
+
+
+
+.desc{
+    width: 100%;
+    position:absolute;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    visibility: hidden;
+    overflow: hidden;
+    /* flex-wrap: wrap-reverse; */
+    bottom: 0;
+    /* opacity: .75; */
+    font-size: 12px;
+    transition: opacity .25s ease-in,bottom .25s cubic-bezier(0.33, 0.04);
+    padding: 5px;
+    /* background-color: #323949; */
+    background-image: linear-gradient(to bottom, rgba(4,8,15,0), #192133,#192133);
+    opacity: 0.85;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px ;
+    /* background: transparent; */
+}
+.desc h1{
+    font-size: 15px;
+}
+.contain:hover{
+    transform: scale(1.19);
+    /* opacity:0.6; */
+    /* z-index: -1; */
+    fill-opacity: calc(3px);
+
+}
+
+.contain:hover .desc{
+    visibility: visible;
+    /* font-weight: bold; */
+}
+
+

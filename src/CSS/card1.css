@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+.cards1{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    width: 100%;
+    height: 380px;
+    margin: 10px 5px;
+    white-space: nowrap;
+    color: #E0E1E3;
+    /* background-color: gray; */
+    /* border: 2px solid black; */
+
+}
+
+.cards1 h1{
+    text-transform: uppercase;
+    margin: 6px 14px;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.cards1::-webkit-scrollbar{
+    visibility: hidden;
+}
+.contain1{
+    /* object-fit: contain; */
+    width: 170px;
+    height: 250px;
+    transition: transform 450ms;
+    border: 2px solid black;
+    margin:10px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E0E1E3;
+    border-radius: 15px;
+    /* word-wrap: break-word;
+    word-break: break-all; */
+    /* float: left; */
+}
+
+
+
+
+.desc1{
+    width: 100%;
+    position:absolute;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    visibility: hidden;
+    overflow: hidden;
+    /* flex-wrap: wrap-reverse; */
+    bottom: 0;
+    /* opacity: .75; */
+    font-size: 12px;
+    transition: opacity .25s ease-in,bottom .25s cubic-bezier(0.33, 0.04);
+    padding: 5px;
+    /* background-color: #323949; */
+    background-image: linear-gradient(to bottom, rgba(4,8,15,0), #192133,#192133);
+    opacity: 0.85;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px ;
+    z-index: -1;
+    /* background: transparent; */
+}
+.desc1 h1{
+    font-size: 15px;
+}
+.contain1:hover{
+    transform: scale(1.18);
+    z-index: -2;
+
+}
+
+.contain1:hover .desc1{
+    visibility: visible;
+    /* font-weight: bold; */
+}
+
+@media screen and (max-width:877px) {
+    .cards1{
+        height: 290px;
+    }
+    .contain1{
+        width: 120px;
+        height: 170px;
+
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .cards1{
+        height: 260px;
+    }
+
+    .contain1{
+        width:90px;
+        height: 140px;
+    }
+
+}
+
+

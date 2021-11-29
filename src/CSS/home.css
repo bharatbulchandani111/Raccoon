@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Celias','Open Sans Condensed', sans-serif;
+}
+body{
+    background-color: #0C111B;
+}
+h1,h2,h3,h4,h5,h6,h7{
+    font-family: 'Celias';
+}
+.footer p{
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    opacity: 0.8;
+}
+.carousel-caption {
+    top:15%;
+    left: 5%;
+    text-align: left;
+    max-width: 300px;
+    right: auto;
+    padding:5px;
+}
+
+.carousel-caption img{
+    /* width: 100px; */
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+}
+
+.nav-items a{
+    font-size: 15.5px;
+    letter-spacing: 0.16em;
+    font-weight: 400;
+}
+.login-link{
+
+}
+@media (max-width:870px){
+    .w-100{
+        height: 354px;
+    }
+    .carousel-caption img {
+        /* width: 117px; */
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+@media (max-width:680px){
+    .w-100{
+        height: 310px;
+    }
+    .carousel-caption img {
+        /* width: 117px; */
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+@media (max-width:580px){
+    .w-100{
+        height: 250px;
+    }
+    .carousel-caption img {
+        /* width: 117px; */
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+@media (max-width:450px){
+    .w-100{
+        height: 210px;
+    }
+    .carousel-caption img {
+        /* width: 117px; */
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+@media (max-width:375px){
+    .w-100{
+        height: 180px;
+    }
+    .carousel-caption img {
+        /* width: 117px; */
+        height: 150px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+.carousel-indicators [data-bs-target] {
+    display: none;
+}
+@media(max-width:360px){
+    .header .headingRaccoon {
+        color: white;
+        margin-left: 20px;
+        font-size: 26.5px;
+    }
+}

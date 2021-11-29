@@ -1,0 +1,230 @@
+.background1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.contentmeta1{
+  position: absolute;
+  height:290px;
+  bottom: -80px;
+  width:100%;
+  padding: 15px;
+  /* padding-left: 20px; */
+  background-image: linear-gradient(to bottom, rgba(10, 11, 12, 0), #192133,#192133);
+  /* border: 2px solid red; */
+}
+
+.controls1{
+  margin-left: 20px;
+  align-items: center;
+display: flex;
+flex-flow: row nowrap;
+margin: 24px 42px;
+min-height: 56px;
+}
+
+.player1{
+  font-size: 22px;
+  margin: 0px 22px 0px 0px;
+  padding: 0px 20px;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1.8px;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgb (249, 249, 249);
+  border: none;
+  color: rgb(0, 0, 0);
+  background: rgb(198, 198, 198);
+  text-decoration: none;
+  border: none;
+  transition: .2s;
+}
+
+
+.player1 img{
+  width:32px;
+  height:32px;
+}
+
+.player1:hover {
+  background: rgb(221, 233, 240);
+  border:2px solid gray;
+  transform: scale(1.22);
+}
+
+
+.trailers1{
+background: rgba(0, 0, 0, 0.3);
+border: 1px solid rgb(249, 249, 249);
+color: rgb(249, 249, 249);
+padding: 10px;
+margin-right: 15px;
+font-size: 22px;
+text-align: center;
+cursor: pointer;
+border-radius: 4px;
+display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 22px;
+}
+
+.trailers1 img{
+  width: 32px;
+  height: 32px;
+}
+
+.addlist1{
+  margin-right: 16px;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.addlist1 span{
+  background-color: rgb(249, 249, 249);
+  display: inline-block;
+}
+
+.addlist1:first-child{
+  height: 2px;
+  transform: translate(1px, 0px) rotate(0deg);
+  width: 16px;
+}
+
+.addlist1:nth-child(2) {
+  height: 16px;
+  transform: translateX(-8px) rotate(0deg);
+  width: 2px;
+}
+
+.groupwatch1{
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+}
+
+.groupwatch1 div{
+  height: 40px;
+  width: 40px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.groupwatch1 div img{
+  width: 100%;
+}
+.subtitle1{
+  color: rgb(249, 249, 249);
+  font-size: 15px;
+  min-height: 20px;
+  margin-left: 42px;
+}
+.description1{
+  line-height: 1.4;
+  font-size: 20px;
+  padding: 16px 0px;
+  color: rgb(249, 249, 249);
+  margin-left: 42px;
+}
+
+@media screen and (max-width:499px) {
+  .player1,.trailers1{
+    height:30px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .player1 img,.trailers1 img{
+    width: 20px;
+    height: 20px;
+  }
+  .controls1,.subtitle1,.description1{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width:392px) {
+  .controls1{
+    margin-left: 2px;
+    margin-right: 0;
+  }
+  .player1,.trailers1{
+    height:20px;
+    font-size: 15px;
+    padding: 15px;
+  }
+  .controls1,.subtitle1,.description1{
+    margin-left: 12px;
+  }
+  .description1{
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (max-width:358px) {
+
+  .player1,.trailers1{
+    height:15px;
+    font-size: 14px;
+    padding: 12px;
+    margin-right: 5px;
+  }
+  .addlist1{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .addlist1{
+    display: none;
+  }
+  .subtitle1{
+    font-size: 12px;
+  }
+  .description1{
+    font-size: 15px;
+  }
+  
+}
+
+.imgTitle{
+  align-items: flex-end;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin: 0px auto;
+  height: 30vw;
+  min-height: 170px;
+  padding-bottom: 24px;
+  width: 100%;
+  margin-left: 42px;
+
+}
+
+.imgTitle img{
+  max-width: 600px;
+  min-width: 200px;
+  width: 35vw;
+  opacity: .75;
+}

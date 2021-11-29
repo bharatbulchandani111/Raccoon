@@ -1,0 +1,43 @@
+[
+    {
+        "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/large.jpg",
+        "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/small2.jpg",
+        "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+        "subTitle": "2009 • 1h 36m • Animation,Comedy,Adventure",
+        "title": "UP",
+        "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/up/up.png",
+        "id":"21"
+    },{
+        "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/the-revenant/large.jpg",
+        "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/the-revenant/small2.jpg",
+        "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "subTitle": "2015 • 2h 36m • Drama,Adventure",
+        "title": "The Revenant",
+        "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/drama/the-revenant/the-revenant.png",
+        "id":"25"
+    },{
+        "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/romance/la-la-land/large.jpg",
+        "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/romance/la-la-land/small2.jpg",
+        "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+        "subTitle": "2016 • 2h 8m • Romance,Love",
+        "title": "La La Land",
+        "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/romance/la-la-land/la.png",
+        "id":"28"
+    },{
+        "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/a-quiet-place/large.jpg",
+        "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/a-quiet-place/small2.jpg",
+        "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "subTitle": "2018 • 1h 35m •  Horror,Drama,Sci-Fi",
+        "title": "A Quiet Place",
+        "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/thriller/a-quiet-place/A_Quiet_Place.png",
+        "id":"34"
+    }, {
+        "backgroundImg":"https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/despicable-me/large.jpg",
+        "cardImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/despicable-me/small2.jpg",
+        "description": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
+        "subTitle": "2010 • 1h 53m • Animation,Comedy",
+        "title": "Despicable Me",
+        "titleImg": "https://raw.githubusercontent.com/bharatbulchandani111/Practical/main/films/children/despicable-me/despicable-me.png",
+        "id":"17"
+    }
+]

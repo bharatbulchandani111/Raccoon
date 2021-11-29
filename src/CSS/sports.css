@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+.cards2{
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10px 15px;
+    color: #E0E1E3;
+}
+.cards2 h1{
+    font-size: calc(1.375rem + 1.5vw);
+}
+    
+.videor{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.videor video{
+    margin-left:10px;
+    margin-right: 39px;
+    width:280px;
+    height: 165px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+@media screen and (max-width:1266px) {
+    .videor{
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .videor video{
+        width:300px;
+        height: 180px;
+        margin:15px
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+
+    .videor{
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .videor video{
+        width:280px;
+        height: 165px;
+        margin: 12px;
+    }
+
+    .cards2 h1{
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width:380px) {
+
+    .videor{
+        margin: 0;
+    }
+    .videor video{
+        width: 256px;
+        height: 141px;
+    }
+
+    .cards2 h1{
+        margin: 0;
+        margin-bottom: 10px;
+        /* font-size: 18px; */
+    }
+    
+}
+
+
+
