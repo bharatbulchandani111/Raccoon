@@ -26,7 +26,7 @@ const Login = (props) => {
       <div className = "content">
         <div className = "container2">
           <img className=".logo" src= {image} alt="Not Loaded"/>
-          <Button className="custom-btn btn-3" onClick={signIn} ><span>GET ALL THERE</span></Button>
+          <Button className="custom-btn btn-3" onClick={()=>{signIn()}} ><span>GET ALL THERE</span></Button>
           <p>
             Get Premier Access to Raya and the Last Dragon for an additional fee
             with a Disney+ subscription. As of 03/26/21, the price of Disney+
