@@ -29,8 +29,8 @@ const Login = (props) => {
           <Button className="custom-btn btn-3" onClick={()=>{signIn()}} ><span>GET ALL THERE</span></Button>
           <p>
             Get Premier Access to Raya and the Last Dragon for an additional fee
-            with a Disney+ subscription. As of 03/26/21, the price of Disney+
-            and The Disney Bundle will increase by $1.
+            with a Raccoon subscription. As of 03/26/21, the price of Raccoon
+            and The Raccoon Bundle will increase by $1.
           </p>
           <img className = "logo2" src={image2} alt="" />
         </div>
