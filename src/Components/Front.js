@@ -78,8 +78,10 @@ const Front = () => {
         <ul></ul>
         }
         <div className="right-container">
+        { person ? <>
           <input type="text" class="search-box" placeholder="search" />
-          <button className="sub-btn">Subscribe</button>
+          <button className="sub-btn">Subscribe</button></>:<div></div>
+        }
           {person? <span className="name"><img className="user-img" title={person}  src={imgUrl}/> &nbsp;<Link
             to="/"
             onClick={() => {

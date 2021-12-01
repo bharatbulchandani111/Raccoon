@@ -1,12 +1,29 @@
-import React from "react";
+import React,{useEffect} from "react";
 import '../CSS/play.css';
 import data from '../JSON Files/moviesData.json'
 import { useParams } from "react-router";
+import {
+  getAuth,
+  onAuthStateChanged,
+} from "firebase/auth";
+import { useNavigate } from "react-router";
 const Play = () => {
 
     const {id} = useParams();
   const a = data[id];
   console.log(a);
+  const navigate = useNavigate();
+  useEffect(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+      } else {
+        navigate('/');  
+        console.log("User not signed in");
+      }
+    });
+  }, []);
   return (
     <div className="play">
     <div className="screen">

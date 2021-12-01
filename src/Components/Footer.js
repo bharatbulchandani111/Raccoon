@@ -1,10 +1,28 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import '../CSS/footer.css';
 import img from '../Assests/logo3.png'
 import { Link } from 'react-router-dom';
+import {
+    getAuth,
+    onAuthStateChanged,
+  } from "firebase/auth";
 const Footer = () => {
+    const [isUser,setIsUser] = useState(false);
+    useEffect(() => {
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            const uid = user.uid;
+            setIsUser(true);
+          } else {
+            console.log("User not signed in");
+            setIsUser(false);
+          }
+        });
+      }, []);
     return(
-        <footer>
+        (
+            isUser &&<footer>
         <div className="top-footer">
             <div className="features">
                 
@@ -63,6 +81,7 @@ const Footer = () => {
         © 2021 RACCOON.
     </div> 
     </footer>
+        )
     )
 }
  export default Footer;

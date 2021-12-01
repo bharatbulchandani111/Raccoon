@@ -1,7 +1,7 @@
 import Cards from "./Cards";
 import ImgSlider from "./ImgSlider";
 import "../CSS/home.css";
-import React from "react";
+import React,{useEffect} from "react";
 import Card1 from "./Cards1";
 import data from '../JSON Files/trend.json';
 import data1 from '../JSON Files/recomm.json';
@@ -13,7 +13,24 @@ import data6 from '../JSON Files/cricket1.json';
 import data7 from '../JSON Files/football1.json';
 import data8 from '../JSON Files/icons.json';
 import Sports from "./Sports";
+import {
+  getAuth,
+  onAuthStateChanged,
+} from "firebase/auth";
+import { Link,useNavigate} from "react-router-dom";
 const Home = (props) => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+      } else {
+        navigate('/');  
+        console.log("User not signed in");
+      }
+    });
+  }, []);
   return (
     <div>
       <ImgSlider />

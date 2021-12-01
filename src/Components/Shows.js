@@ -1,8 +1,25 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import '../CSS/shows.css';
 import data from '../JSON Files/moviesss.json';
 import { Link } from 'react-router-dom';
+import {
+  getAuth,
+  onAuthStateChanged,
+} from "firebase/auth";
+import { useNavigate } from "react-router";
 const Shows = (props) => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+      } else {
+        navigate('/');  
+        console.log("User not signed in");
+      }
+    });
+  }, []);
     const divStyle = (src) => ({
         backgroundImage: "url(" + src + ")",
       });
