@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import firebase from 'firebase/compat/app';
-
+import { Provider } from "react-redux";
+import { store } from "./state/store";
 
 
 
@@ -17,15 +18,17 @@ const firebaseConfig = {
   appId: "1:281485349620:web:ac87c373134fbcf93704a1",
   measurementId: "G-YGDPSV35MH"
 };
+firebase.initializeApp(firebaseConfig);
+
   
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+
 
 ReactDOM.render(
   <React.StrictMode>
-  
+  <Provider store={store}>
     <App />
-
+</Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

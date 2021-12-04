@@ -11,7 +11,7 @@ const Sports = (props) => {
           {
               data.map((item,id)=>{
                   return(
-                    <video poster={item.flag} onClick={()=>{navigate('/shows')}}  onMouseOver={event=>
+                    <video poster={item.flag}   onMouseOver={event=>
                   event.target.play()
               } onMouseLeave={event=>event.target.pause()} className="videoss" src={item.link} type="video/mp4" loop={true}>
              </video>

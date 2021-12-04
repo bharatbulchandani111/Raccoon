@@ -66,7 +66,7 @@ const Front = () => {
             <Link to="/shows">Movies</Link>
           </li>
           <li className="nav-items">
-            <Link to="/home">Tv</Link>
+            <Link to="/list">Favourites</Link>
           </li>
           <li className="nav-items">
             <Link to="/sports">Sports</Link>
@@ -134,9 +134,9 @@ const Front = () => {
             </Link>
           </li>
           <li>
-            <Link to="/home">
+            <Link to="/list">
               <i class="fa fa-folder"></i>
-              Channels
+              My List
             </Link>
           </li></ul>:<ul></ul>
         }

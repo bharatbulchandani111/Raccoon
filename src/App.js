@@ -13,7 +13,7 @@ import Front from "./Components/Front";
 import Shows from "./Components/Shows";
 import Footer from "./Components/Footer";
 import Login from "./Components/Login";
-import NotFoud from "./Components/NotFound";
+import MyWatchList from "./Components/MyWatchList";
 
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
       <Route exact path="/" element={<Login />} />
       <Route exact path="/sports" element={<SportsComp />} />
       <Route exact path="/home" element={<Home />} />
+      <Route exact path="/list" element={<MyWatchList />} />
       <Route exact path="/shows" element={<Shows />} />
-      <Route exact path="/404" element={<NotFoud />} />
       <Route exact path="/movies/:id" element={<Movies />} />
       <Route exact path="/movies/:id/play/:id" element={<Play />} />
      </Routes>
