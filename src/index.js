@@ -2,11 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import firebase from 'firebase/compat/app';
 import { Provider } from "react-redux";
 import { store } from "./state/store";
-
-
+import firebase from 'firebase/compat/app';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCJfu2nYUhsBleEB-HvYetiQWxyIyelUK4",
@@ -19,10 +17,6 @@ const firebaseConfig = {
   measurementId: "G-YGDPSV35MH"
 };
 firebase.initializeApp(firebaseConfig);
-
-  
-  // Initialize Firebase
-
 
 ReactDOM.render(
   <React.StrictMode>

@@ -5,7 +5,12 @@ const reducer = (state=[], action) => {
     }
     else if(action.type==='remove')
     {
-        return state
+        var index = state.findIndex(function(o){
+            return o.id === action.payload.id;
+       })
+       if (index !== -1) 
+       state.splice(index, 1);
+        return state;
     }
     else
     {
